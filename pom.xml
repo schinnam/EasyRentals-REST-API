@@ -85,9 +85,10 @@
                                 <groupId>org.jboss.as.plugins</groupId>
                                 <artifactId>jboss-as-maven-plugin</artifactId>
                                 <version>7.9.Final</version>
-				
-				<name> Application-0.0.1-SNAPSHOT.jar </name>
-				<username> ec2-user </username>
+				<configuration>
+				  <name> Application-0.0.1-SNAPSHOT.jar </name>
+				  <username> ec2-user </username>
+				</configuration>
                         </plugin>
 			
 			
