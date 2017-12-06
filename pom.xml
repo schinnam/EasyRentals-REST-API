@@ -81,6 +81,16 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>org.jboss.as.plugins</groupId>
+                		<artifactId>jboss-as-maven-plugin</artifactId>
+                		<version>7.9.Final</version>
+				<configuration>
+					<servername> ec2-35-164-189-169.us-west-2.compute.amazonaws.com</servername>
+					<jbosshome> /var/lib/jenkins/workspace/shiva_EasyRentals</jbosshome>
+				</configuration>
+					
+			</plugin>
 			
 			
 					</plugins>
